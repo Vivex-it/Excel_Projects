@@ -16,5 +16,5 @@ This project focuses on exploring the data science job market to identify in-dem
 
 [Check out my work here](Project-2_Salary_Analysis)
 
-![Salary Analysis](./Image/2_Project_Analysis_Chart1.png)  
+![Salary Analysis](./Image/2_Project_Analysis_Chart1.png)
 ![Salary Analysis2](./Image/2_Project_Analysis_Chart3.png)
