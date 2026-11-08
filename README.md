@@ -8,4 +8,4 @@ Created an interactive Salary Dashboard using Microsoft Excel to analyze job mar
 
 [Check out my work here](Project-1_Salary_Dashboard)
 
-![Salary Dashboard](https://raw.githubusercontent.com/Vivex-it/Excel_Projects/main/Image/1_Salary_Dashboard_Final_Dashboard.gif)
+![Salary Dashboard](./Image/1_Salary_Dashboard_Final_Dashboard.gif)
