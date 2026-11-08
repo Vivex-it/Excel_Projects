@@ -29,3 +29,26 @@ The dataset contains information about data-related job opportunities in 2023, i
 - **Salaries** – Compensation information for various positions.
 - **Locations** – Geographic distribution of job opportunities.
 - **Skills** – Skills associated with different job roles.
+
+## Dashboard Build
+
+### 📉 Charts
+
+#### 📊 Data Science Job Salaries – Bar Chart
+
+![Salary Dashboard Chart 1](../Image/1_Salary_Dashboard_Chart1.png)
+
+- 🛠️ **Excel Features:** Used Excel's bar chart functionality and number formatting to present salary data clearly.
+- 🎨 **Design Choice:** Selected a horizontal bar chart to make salary comparisons across different job titles easier.
+- 📊 **Data Organization:** Sorted job titles in descending order of median salary for better readability.
+- 💡 **Key Learning:** Learned how charts help identify salary trends and compare earning potential across different job roles.
+
+#### 🗺️ Country Median Salaries – Map Chart
+
+![Country Median Salaries](../Image/1_Salary_Dashboard_Country_Map.gif)
+
+- 🛠️ **Excel Features:** Applied Excel's map chart functionality to visualize median salaries across different countries.
+- 🎨 **Design Choice:** Used different colours to represent salary levels across geographical regions.
+- 📊 **Data Representation:** Visualized median salaries for countries with available data.
+- 👁️ **Visual Enhancement:** Used geographical visualization to make international salary comparisons easier to understand.
+- 💡 **Key Learning:** Learned how map charts can reveal geographical salary differences and help identify high- and low-paying regions.
