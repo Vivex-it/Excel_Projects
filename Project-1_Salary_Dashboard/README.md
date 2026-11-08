@@ -45,7 +45,24 @@ The dataset contains information about data-related job opportunities in 2023, i
 
 #### 🗺️ Country Median Salaries – Map Chart
 
-![Country Median Salaries](../Image/1_Salary_Dashboard_Country_Map.gif)
+![Country Median Salaries](../Image/1_Salary_Dashboard_Country_Map.gif)  
+
+## 🧮 Formulas and Functions
+
+### 💰 Median Salary by Job Titles
+
+```excel
+=MEDIAN(
+IF(
+    (jobs[job_title_short]=A2)*
+    (jobs[job_country]=country)*
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+    (jobs[salary_year_avg]<>0),
+    jobs[salary_year_avg]
+)
+)
+```
+
 
 - 🛠️ **Excel Features:** Applied Excel's map chart functionality to visualize median salaries across different countries.
 - 🎨 **Design Choice:** Used different colours to represent salary levels across geographical regions.
