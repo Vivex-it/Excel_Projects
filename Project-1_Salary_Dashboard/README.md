@@ -12,7 +12,7 @@ Using a dataset containing 2023 data science job market information, I transform
 
 You can find the completed Excel dashboard here:
 
-[**1_Salary_Dashboard.xlsx**](1_Salary_Dashboard.xlsx)
+[**1_Salary_Dashboard.xlsx**](Salary_Dashboard.xlsx)
 
 ## Excel Skills Used
 
