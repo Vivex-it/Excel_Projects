@@ -38,18 +38,18 @@ The dataset contains information about data-related job opportunities in 2023, i
 
 ![Salary Dashboard Chart 1](../Image/1_Salary_Dashboard_Chart1.png)
 
-- 🛠️ **Excel Features:** Used Excel's bar chart functionality and number formatting to present salary data clearly.
-- 🎨 **Design Choice:** Selected a horizontal bar chart to make salary comparisons across different job titles easier.
-- 📊 **Data Organization:** Sorted job titles in descending order of median salary for better readability.
-- 💡 **Key Learning:** Learned how charts help identify salary trends and compare earning potential across different job roles.
+-  **Excel Features:** Used Excel's bar chart functionality and number formatting to present salary data clearly.
+-  **Design Choice:** Selected a horizontal bar chart to make salary comparisons across different job titles easier.
+-  **Data Organization:** Sorted job titles in descending order of median salary for better readability.
+-  **Key Learning:** Learned how charts help identify salary trends and compare earning potential across different job roles.
 
 #### 🗺️ Country Median Salaries – Map Chart
 
 ![Country Median Salaries](../Image/1_Salary_Dashboard_Country_Map.gif)  
 
-## 🧮 Formulas and Functions
+##  Formulas and Functions
 
-### 💰 Median Salary by Job Titles
+###  Median Salary by Job Titles
 
 ```excel
 =MEDIAN(
@@ -63,10 +63,10 @@ IF(
 )
 ```
 
-- 🔍 **Multi-Criteria Filtering:** Applied multiple conditions to filter salary data based on job title, country, and schedule type while excluding zero salary values.
-- 📊 **Array Formula:** Combined the `MEDIAN()` and `IF()` functions to calculate median salaries for records matching the selected criteria.
-- 🎯 **Conditional Analysis:** Practiced using multiple criteria to extract relevant salary information for different job roles, countries, and employment types.
-- **🔢 Formula Purpose:** Used this formula to populate the salary table, dynamically calculating the median salary based on the selected job title, country, and schedule type.
+-  **Multi-Criteria Filtering:** Applied multiple conditions to filter salary data based on job title, country, and schedule type while excluding zero salary values.
+-  **Array Formula:** Combined the `MEDIAN()` and `IF()` functions to calculate median salaries for records matching the selected criteria.
+-  **Conditional Analysis:** Practiced using multiple criteria to extract relevant salary information for different job roles, countries, and employment types.
+- ** Formula Purpose:** Used this formula to populate the salary table, dynamically calculating the median salary based on the selected job title, country, and schedule type.
 
 🍽️ Background Table  
 
@@ -81,11 +81,11 @@ IF(
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 
-- 🔍 Data Filtering: Used the FILTER() function to exclude job schedule entries containing "and" or commas, along with zero values.
-- 📊 Text Functions: Combined SEARCH() and ISNUMBER() to identify entries containing specific text patterns.
-- 🎯 Dynamic List Generation: Used the spilled array reference J2# to filter the existing list dynamically.
-- 💡 Key Learning: Learned how to combine text-searching and logical functions to clean and organize data for dashboard development.
-- 🔢 Formula Purpose: Generates a filtered list of individual job schedule types, which is used to populate the background table and support dashboard analysis.
+-  Data Filtering: Used the FILTER() function to exclude job schedule entries containing "and" or commas, along with zero values.
+-  Text Functions: Combined SEARCH() and ISNUMBER() to identify entries containing specific text patterns.
+-  Dynamic List Generation: Used the spilled array reference J2# to filter the existing list dynamically.
+-  Key Learning: Learned how to combine text-searching and logical functions to clean and organize data for dashboard development.
+-  Formula Purpose: Generates a filtered list of individual job schedule types, which is used to populate the background table and support dashboard analysis.
 
 🍽️ Background Table
 
@@ -99,11 +99,11 @@ IF(
 
 #### 🔍 Filtered List
 
-- 🔒 **Data Validation:** Applied Excel's Data Validation feature to create dropdown lists for the `Job Title`, `Country`, and `Type` filters.
-- 🎯 **Controlled User Input:** Used predefined lists to ensure users select valid options while interacting with the dashboard.
-- 🚫 **Error Prevention:** Learned how data validation helps prevent incorrect or inconsistent entries.
-- 👥 **Interactive Dashboard:** Made the dashboard more user-friendly by allowing users to explore salary information through dropdown selections.
-- 💡 **Key Learning:** Gained practical experience in using Data Validation to create interactive and easy-to-use Excel dashboards.
+-  **Data Validation:** Applied Excel's Data Validation feature to create dropdown lists for the `Job Title`, `Country`, and `Type` filters.
+-  **Controlled User Input:** Used predefined lists to ensure users select valid options while interacting with the dashboard.
+-  **Error Prevention:** Learned how data validation helps prevent incorrect or inconsistent entries.
+-  **Interactive Dashboard:** Made the dashboard more user-friendly by allowing users to explore salary information through dropdown selections.
+-  **Key Learning:** Gained practical experience in using Data Validation to create interactive and easy-to-use Excel dashboards.
 
 ![Salary Dashboard Data Validation](../Image/1_Salary_Dashboard_Data_Validation.gif)
 
