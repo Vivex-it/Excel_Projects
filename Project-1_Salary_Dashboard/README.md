@@ -4,9 +4,7 @@
 
 ## Introduction
 
-Created an interactive **Excel Salary Dashboard** to explore and analyze salary trends in the data job market. The dashboard helps users compare salaries across different job roles and locations, making it easier to understand compensation patterns and gain insights into the data analytics and data science job market.
-
-Using a dataset containing 2023 data science job market information, I transformed raw data into meaningful visual insights through an interactive dashboard.
+Created an interactive **Excel Salary Dashboard** to explore and analyze salary trends in the data job market. The dashboard helps users compare salaries across different job roles and locations, making it easier to understand compensation patterns and gain insights into the data analytics and data science job market.  
 
 ## Dashboard File
 
