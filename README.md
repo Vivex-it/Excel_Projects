@@ -1,6 +1,6 @@
 # My Excel Projects for Data Analytics  
 
-This repository contains all the project files to access my work .  
+This repository contains all the project files to showcase my work .  
 
 ## Salary Dashboard  
 
