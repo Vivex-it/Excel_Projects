@@ -63,6 +63,11 @@ IF(
 )
 ```
 
+- 🔍 **Multi-Criteria Filtering:** Applied multiple conditions to filter salary data based on job title, country, and schedule type while excluding zero salary values.
+- 📊 **Array Formula:** Combined the `MEDIAN()` and `IF()` functions to calculate median salaries for records matching the selected criteria.
+- 🎯 **Conditional Analysis:** Practiced using multiple criteria to extract relevant salary information for different job roles, countries, and employment types.
+- **🔢 Formula Purpose:** Used this formula to populate the salary table, dynamically calculating the median salary based on the selected job title, country, and schedule type.
+
 🍽️ Background Table  
 
 ![Job Title Median Salaries](../Image/1_Salary_Dashboard_Screenshot1.png)
@@ -81,12 +86,11 @@ IF(
 - 🎯 Dynamic List Generation: Used the spilled array reference J2# to filter the existing list dynamically.
 - 💡 Key Learning: Learned how to combine text-searching and logical functions to clean and organize data for dashboard development.
 - 🔢 Formula Purpose: Generates a filtered list of individual job schedule types, which is used to populate the background table and support dashboard analysis.
+
 🍽️ Background Table
 
-[
+![Job Schedule Type](../Image/1_Salary_Dashboard_Screenshot2.png)
 
-- 🛠️ **Excel Features:** Applied Excel's map chart functionality to visualize median salaries across different countries.
-- 🎨 **Design Choice:** Used different colours to represent salary levels across geographical regions.
-- 📊 **Data Representation:** Visualized median salaries for countries with available data.
-- 👁️ **Visual Enhancement:** Used geographical visualization to make international salary comparisons easier to understand.
-- 💡 **Key Learning:** Learned how map charts can reveal geographical salary differences and help identify high- and low-paying regions.
+📉 Dashboard Implementation
+
+![Job Schedule Type Dashboard](../Image/1_Salary_Dashboard_Type.png)
