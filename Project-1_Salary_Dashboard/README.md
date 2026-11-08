@@ -93,4 +93,22 @@ IF(
 
 📉 Dashboard Implementation
 
-![Job Schedule Type Dashboard](../Image/1_Salary_Dashboard_Type.png)
+![Job Schedule Type Dashboard](../Image/1_Salary_Dashboard_Type.png)  
+
+### ❎ Data Validation
+
+#### 🔍 Filtered List
+
+- 🔒 **Data Validation:** Applied Excel's Data Validation feature to create dropdown lists for the `Job Title`, `Country`, and `Type` filters.
+- 🎯 **Controlled User Input:** Used predefined lists to ensure users select valid options while interacting with the dashboard.
+- 🚫 **Error Prevention:** Learned how data validation helps prevent incorrect or inconsistent entries.
+- 👥 **Interactive Dashboard:** Made the dashboard more user-friendly by allowing users to explore salary information through dropdown selections.
+- 💡 **Key Learning:** Gained practical experience in using Data Validation to create interactive and easy-to-use Excel dashboards.
+
+![Salary Dashboard Data Validation](../Image/1_Salary_Dashboard_Data_Validation.gif)
+
+## Conclusion
+
+Through this project, I gained hands-on experience in using Microsoft Excel to analyze salary trends in the data job market and build an interactive dashboard. I applied various Excel features, including charts, formulas and functions, and data validation to transform raw data into meaningful visual insights.
+
+This project helped me strengthen my understanding of data analysis, data visualization, and dashboard design. It also gave me practical experience in exploring how job roles, geographical locations, and employment types influence salary trends.
