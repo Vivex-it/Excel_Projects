@@ -68,7 +68,7 @@ IF(
 -  **Conditional Analysis:** Practiced using multiple criteria to extract relevant salary information for different job roles, countries, and employment types.
 - ** Formula Purpose:** Used this formula to populate the salary table, dynamically calculating the median salary based on the selected job title, country, and schedule type.
 
-🍽️ Background Table  
+ Background Table  
 
 ![Job Title Median Salaries](../Image/1_Salary_Dashboard_Screenshot1.png)
 
@@ -76,7 +76,7 @@ IF(
 
 ![Job Title Dashboard](../Image/1_Salary_Dashboard_Job_Title.png)
 
-⏰ Job Schedule Types  
+ Job Schedule Types  
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
@@ -87,7 +87,7 @@ IF(
 -  Key Learning: Learned how to combine text-searching and logical functions to clean and organize data for dashboard development.
 -  Formula Purpose: Generates a filtered list of individual job schedule types, which is used to populate the background table and support dashboard analysis.
 
-🍽️ Background Table
+ Background Table
 
 ![Job Schedule Type](../Image/1_Salary_Dashboard_Screenshot2.png)
 
@@ -95,7 +95,7 @@ IF(
 
 ![Job Schedule Type Dashboard](../Image/1_Salary_Dashboard_Type.png)  
 
-### ❎ Data Validation
+###  Data Validation
 
 #### 🔍 Filtered List
 
