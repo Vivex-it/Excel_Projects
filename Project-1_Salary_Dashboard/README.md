@@ -63,6 +63,25 @@ IF(
 )
 ```
 
+🍽️ Background Table  
+
+![Job Title Median Salaries](../Image/1_Salary_Dashboard_Screenshot1.png)
+
+📉 Dashboard Implementation
+
+⏰ Job Schedule Types  
+```
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
+
+- 🔍 Data Filtering: Used the FILTER() function to exclude job schedule entries containing "and" or commas, along with zero values.
+- 📊 Text Functions: Combined SEARCH() and ISNUMBER() to identify entries containing specific text patterns.
+- 🎯 Dynamic List Generation: Used the spilled array reference J2# to filter the existing list dynamically.
+- 💡 Key Learning: Learned how to combine text-searching and logical functions to clean and organize data for dashboard development.
+- 🔢 Formula Purpose: Generates a filtered list of individual job schedule types, which is used to populate the background table and support dashboard analysis.
+🍽️ Background Table
+
+[
 
 - 🛠️ **Excel Features:** Applied Excel's map chart functionality to visualize median salaries across different countries.
 - 🎨 **Design Choice:** Used different colours to represent salary levels across geographical regions.
