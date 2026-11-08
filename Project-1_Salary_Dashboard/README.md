@@ -67,7 +67,9 @@ IF(
 
 ![Job Title Median Salaries](../Image/1_Salary_Dashboard_Screenshot1.png)
 
-📉 Dashboard Implementation
+📉 Dashboard Implementation  
+
+![Job Title Dashboard](../Image/1_Salary_Dashboard_Job_Title.png)
 
 ⏰ Job Schedule Types  
 ```
